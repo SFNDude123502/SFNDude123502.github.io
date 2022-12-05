@@ -23,6 +23,9 @@ func main() {
 	srv.POST("/move", postMove)
 	srv.POST("/message", postMessage)
 	srv.GET("/reload", webSocket)
+	srv.GET("/victory", func(c *gin.Context) {
+		c.HTML(200, "victory", gin.H{"winner": "everyone but you"})
+	})
 	go wsDealer()
 
 	srv.Run(":80")
