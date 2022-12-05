@@ -1,0 +1,57 @@
+.board{
+    float: left;
+    grid-row: span 1 / 3;
+    display: grid;
+    grid-template-columns: repeat(9, 70px);
+    grid-auto-rows: 70px;
+}
+.item{
+    border-width: 3px;
+    border-color: black;
+    justify-content: center;
+    justify-items: center;
+}
+img{
+    display: block;
+    margin-left: 4px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px; 
+}
+header{
+    border-bottom: 2px;
+    border-color: black;
+}
+ul{
+    width: auto;
+    height: 200px;
+    overflow:hidden; 
+    overflow-y:scroll;
+}
+body{
+    /*color-scheme: dark;*/
+}
+.text{
+    
+}
+.input{
+    float: right;
+    height: auto;
+}
+
+.white{
+    background-color: azure;
+}
+.blue{
+    background-color: skyblue;
+}
+.yellow{
+    background-color: lightyellow;
+    text-align: center;
+    font-size: 300%;
+}
+.black{
+    background-color: grey;
+    text-align: center;
+    font-size: 300%;
+}
