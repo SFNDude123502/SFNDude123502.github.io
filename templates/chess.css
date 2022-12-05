@@ -6,8 +6,7 @@
     grid-auto-rows: 70px;
 }
 .item{
-    border-width: 3px;
-    border-color: black;
+    border: 1pc solid black;
     justify-content: center;
     justify-items: center;
 }
