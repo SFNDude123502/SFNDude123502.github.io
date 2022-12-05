@@ -15,7 +15,7 @@ func init() {
 func main() {
 	srv := gin.Default()
 
-	srv.LoadHTMLFiles("./index.go.html", "./templates/victory.go.html")
+	srv.LoadHTMLFiles("./index.html", "./templates/victory.go.html")
 	srv.Static("/templates", "./templates")
 	srv.StaticFile("/favicon.ico", "./favicon.ico")
 
